@@ -1,0 +1,37 @@
+{
+  "name": "everest-company-backend-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdivyaswarupa2004/everest-company-backend-application.git"
+  },
+  "keywords": [],
+  "author": "M.Divyaswarupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdivyaswarupa2004/everest-company-backend-application/issues"
+  },
+  "homepage": "https://github.com/mdivyaswarupa2004/everest-company-backend-application#readme",
+  "description": "This is the 1st App deploye into aws server",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "nodemon": "^3.1.11",
+    "sequelize-cli": "^6.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  }
+}
