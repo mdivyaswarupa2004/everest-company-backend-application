@@ -7,8 +7,9 @@ export const getAllInterns = async (_req: Request, res: Response) => {
     res.status(200).json(interns);
   }
   catch (error) {
+    console.log(error)
     res.status(500).json({
-      error: "Failed to fetch interns. Please try again later"
+      error: error
     });
   }
 };
